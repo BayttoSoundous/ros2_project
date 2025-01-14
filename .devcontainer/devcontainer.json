@@ -1,0 +1,11 @@
+{
+    "name": "ROS Foxy",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "settings": {},
+    "extensions": ["ms-iot.vscode-ros"],
+    "postCreateCommand": "source /opt/ros/foxy/setup.bash"
+  }
+
+  
